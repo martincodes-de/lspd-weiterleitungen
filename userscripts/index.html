@@ -1,0 +1,244 @@
+<html>
+<head>
+    <title>Userscripts</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <!-- Script AppML -->
+    <script src="https://www.w3schools.com/appml/2.0.3/appml.js"></script>
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        details {
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">About</h4>
+                    <p class="text-muted">Add some information about the album below, the author, or any other
+                        background context. Make it a few sentences long so folks can pick up some informative tidbits.
+                        Then, link them off to some social networking sites or contact information.</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                        <li><a href="#" class="text-white">Like on Facebook</a></li>
+                        <li><a href="#" class="text-white">Email me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="../lspd-logo.png" width="45" height="45" alt="">
+            </a>
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <strong>Los Santos Police Department - Userscripts</strong>
+            </a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="pt-5 text-center container">
+        <div class="row pb-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Userscripts</h1>
+                <p class="lead text-muted">Userscripts sind lokale Scripts, die eine Internetseite im eigenen Browser bearbeiten/erweitern.</p>
+                <p>Sie werden genutzt, um bspw. das Akten- oder Leitstellensystem um nützliche Funktionen zu erweitern.</p>
+                <p style="">
+                    <a href="#tutorial" class="btn btn-success my-2">Tutorial: Scripts installieren, vorbereiten und nutzen</a>
+                    <a href="#headline-userscripts" class="btn btn-primary my-2">Alle Userscripts ansehen</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 bg-light">
+        <div class="container">
+            <div class="row pb-lg-5" id="tutorial">
+                <div class="col-12">
+                    <h1 class="" style="padding-left: 0 !important;">Tutorial</h1>
+                    <div class="alert alert-info">
+                        Dieses Tutorial gibts auch als Video: <a href="#" target="_blank">Videotutorial ansehen</a>
+                        (ggf. empfehlenswerter, da vielleicht mehr gesagt wird)
+                    </div>
+                    <ol>
+                        <li>Browseraddon namens "Tampermonkey" installieren (<a href="https://www.tampermonkey.net/" target="_blank">https://www.tampermonkey.net/</a>)</li>
+                        <li>Ein Userscript raussuchen und auf "download" klicken</li>
+                        <li>auf den Button "raw" klicken
+                            <br>
+                            <img src="https://picr.eu/images/2021/06/02/YNsEV.png" alt="Screenshot" class="img-fluid">
+                        </li>
+                        <li>Das Script installieren
+                            <br>
+                            <img src="https://picr.eu/images/2021/06/02/YN4JY.png" alt="Screenshot" class="img-fluid">
+                        </li>
+                        <li>
+                            Kopiere die downloadURL aus dem Script, bearbeite die Einstellungen des dazugehörigen Userscripts und aktualisiere die Update-URL
+                            (manchmal vergesse ich diese anzugeben oder es funktioniert first try nicht (damit erhälst du dann aber garantiert automatisch updates))
+                            <img src="https://picr.eu/images/2021/06/26/YQn43.gif" alt="Screenshot" class="img-fluid">
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="album py-5">
+        <div class="container">
+            <h1 id="headline-userscripts">Alle Userscripts</h1>
+            <small>Bilder größer anzeigen mit Rechtsklick aufs Bild -> Bild im neuen Tab öffnen</small>
+            <br><br>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://picr.eu/images/2021/06/26/YQlnZ.png" class="bd-placeholder-img card-img-top"/>
+                        <div class="card-body">
+                            <p class="card-text">Darkmode für das Aktensystem</p>
+                            <details class="mb-3">
+                                <summary>Weitere Informationen</summary>
+                                Schluss mit hellen Farben. Probieren Sie es doch mal mit schwarz!
+                            </details>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/martincodes-de/dirty-gaming-userscripts/blob/main/aktensystem-darkmode.user.js" target="_blank" class="btn btn-sm btn-outline-primary">Download</a>
+                                </div>
+                                <small class="text-muted"><span class="badge bg-success">Aktensystem</span></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://picr.eu/images/2021/06/26/YQvxL.png" class="bd-placeholder-img card-img-top"/>
+                        <div class="card-body">
+                            <p class="card-text">Lizenzen direkt in Bürgerakte sehen</p>
+                            <details class="mb-3">
+                                <summary>Weitere Informationen</summary>
+                                Lassen Sie sich die Lizenzen eines Bürgers direkt in der Bürgerakte anzeigen.
+                                Zusätzlich erhalten Sie unter "Offene Akten" ein Hinweis, ob ein Waffenschein vorhanden ist oder nicht.
+                            </details>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/martincodes-de/dirty-gaming-userscripts/blob/main/aktensystem-lizenzen-buergerakte-abfrage.user.js" target="_blank" class="btn btn-sm btn-outline-primary">Download</a>
+                                </div>
+                                <small class="text-muted">
+                                    <span class="badge bg-success">Aktensystem</span>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://picr.eu/images/2021/06/26/YQS4W.gif" class="bd-placeholder-img card-img-top"/>
+                        <div class="card-body">
+                            <p class="card-text">Nicht verfügbare Streifen bei Dispatching ausblenden</p>
+                            <details class="mb-3">
+                                <summary>Weitere Informationen</summary>
+                                Behalten Sie den Überblick - blenden Sie schwarze Streifen (Code 10, Einsatz 1-2 usw.) einfach aus.
+                            </details>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/martincodes-de/dirty-gaming-userscripts/blob/main/leitstellensystem-schwarze-streifen-ausblenen-dispatching.user.js" target="_blank" class="btn btn-sm btn-outline-primary">Download</a>
+                                </div>
+                                <small class="text-muted">
+                                    <span class="badge bg-primary">Leitstellensystem</span>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://picr.eu/images/2021/06/26/YQUT6.gif" class="bd-placeholder-img card-img-top"/>
+                        <div class="card-body">
+                            <p class="card-text">Visuelles + akkustisches Signal bei neuen Dispatches</p>
+                            <details class="mb-3">
+                                <summary>Weitere Informationen</summary>
+                                Die Karte im Leitstellensystem aktualisiert sich zwar automatisch, die Dispatches aber nicht.
+                                Damit Sie es mitbekommen, wurde ein visuelles und akkustisches Signal implementiert, um Sie als
+                                Leitstelle zu informieren. Erst dann müssen Sie die Seite reloaden. <span style="color: red">Sie müssen im Browser Audio und Video aktivieren,
+                                damit das akkustische Signal ertönt.</span>
+                            </details>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/martincodes-de/dirty-gaming-userscripts/blob/main/leitstellensystem-einkommende-dispatches-signal.user.js" target="_blank" class="btn btn-sm btn-outline-primary">Download</a>
+                                </div>
+                                <small class="text-muted">
+                                    <span class="badge bg-primary">Leitstellensystem</span>
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://picr.eu/images/2021/06/26/YQtqT.png" class="bd-placeholder-img card-img-top"/>
+                        <div class="card-body">
+                            <p class="card-text">Bußgeldrechnertausch im Aktensystem</p>
+                            <details class="mb-3">
+                                <summary>Weitere Informationen</summary>
+                                Der native Bußgeldrechner des Aktensystems ist fürn Arsch.
+                                Lassen Sie sich direkt die Verlinkungen zu den richtigen Bußgeldrechnern anzeigen, damit Sie immer auf dem richtigen Weg sind.
+                            </details>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/martincodes-de/dirty-gaming-userscripts/blob/main/aktensystem-bussgeldrechner-tausch.user.js" target="_blank" class="btn btn-sm btn-outline-primary">Download</a>
+                                </div>
+                                <small class="text-muted"><span class="badge bg-success">Aktensystem</span></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="text-muted py-5 border-top">
+    <div class="container">
+        <p class="float-end mb-1">
+            <a href="#">Ab nach oben mit dir</a>
+        </p>
+        <p class="mb-0">&copy; by SGT Martin Cooper | Rückmeldungen zu diesen Userscripts? <a href="https://forms.gle/3Z3XT4rmTs7XBpiAA"
+                                                                                           target="_blank">Sende eine Nachricht an die Entwicklung.</a></p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
